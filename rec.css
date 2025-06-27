@@ -1,30 +1,35 @@
-body{
-    direction: ltr;
+
+    body {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+        background-color: #88acc8;
+        color:#4682b4;
+        direction: ltr;
 }
 .navbar {
-      background-color: #E4F1F3;
-      width:100%;
-      height:100px;
-      color:#4682b4;
-      direction:ltr;
+    position: fixed;
+    height: 115px;
+    width: 30000px;
+    background-attachment: #a2bedc;
   }
 .subtitle{
     color:#fff;
     font-family: cursive;
-    margin-top: 15px;
+    margin-top: -12px;
+    float:left;
   }
   li{
     display:inline-block;
-    margin-left: 10px;
-    line-height:20px;
-    margin-left: 20px;
+    margin-top: 30px;
   }
   li a{
     text-decoration:none;
     padding: 20px;
     margin-left: 15px;
+    margin-top: -10px;
   }
   li a:hover{
     color:white;
-    background-color:PaleTurquoise
+    background-color:Turquoise;
   }
