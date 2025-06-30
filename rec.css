@@ -49,6 +49,7 @@
     margin-top: 70px;
  }
  p{
+  font-size:15px;
   color:black;
   margin-top: 60px;
   padding: 15px;
@@ -96,6 +97,24 @@
   width: 600px;
   height: 600px;
 }
+.instructions{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: floralwhite;
+  font-size: 20px;
+  width: 80%;
+  box-shadow: 0 0 20px #4682b4;
+  border-radius: 15px;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 
 
 

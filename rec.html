@@ -41,7 +41,16 @@
         <input type="text" id="grades" placeholder="Separate grades with commas(,)"><br><br>
         <button class="submit-btn" onclick="avrageOfgrades()">Calculate average</button>
       </div>
-      <img src="https://i.ibb.co/wZShkMBz/Chat-GPT-Image-Jun-30-2025-09-49-26-AM.png"  id="image2" alt="" border="0" onclick="ots-progrem">
+      <img src="https://i.ibb.co/wZShkMBz/Chat-GPT-Image-Jun-30-2025-09-49-26-AM.png"  id="image2" alt="" border="0" onclick="otsprogrem()">
       <img src="https://i.ibb.co/QvZLFzk6/Chat-GPT-Image-Jun-30-2025-10-00-16-AM.png"  id="image3" alt="Chat-GPT-Image-Jun-30-2025-10-00-16-AM" border="0"></a>
+      <div id="popup_instructions" class="instructions">
+        <p>Hi,you click on the out of school learning program picture,<br>
+          only 2 programs are avilabole now<b>(your options are: Alicecode or 
+          High school academy in the open universty(Please enter only universty for this choice):)</b><br>
+         <b>Which one do you want to see?</b></p>
+         <input type="text" id="choice" placeholder="type your choice here"><br>
+         <button class="submit-btn" onclick="checkAnswer()">send choice</button>
+        <span class="close"
+         onclick="close_popup('popup_instructions')">X</span></div>
 </body>
 </html>
