@@ -15,6 +15,10 @@ async function avrageOfgrades(){
     var popup = document.getElementById("popup_instructions");
     popup.style.display = "block";
 }
+function close_popup(popup_instructions) {
+    var popup = document.getElementById("popup_instructions");;
+    popup.style.display = "none";
+}
 function checkAnswer(){
     var popup = document.getElementById("popup_instructions");
     popup.style.display = "none";

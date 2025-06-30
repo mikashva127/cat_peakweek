@@ -40,6 +40,7 @@
     
  }
   #box1{
+    margin-top: -170px;
     width: 30%;
     height: 115%;
     background-color:#4682b4;
@@ -70,13 +71,14 @@
 
 #box3 {
   float: left; /* Float box3 to the left as well */
-  padding: 20px;
+  padding: 40px;
   width: 30%;
   height: 150%;
   background-color: FloralWhite;
   border-style: dotted;
   border-width: 7px;
   border-color: LightBlue;
+  margin-top: -170px;
 }
 
 #calculate-p{
@@ -95,9 +97,19 @@
 #image{
   width: 300px;
 }
-#image2,#image3{
-  width: 600px;
-  height: 600px;
+#image2{
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin-top: -180px;
+
+
+}
+#image3{
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+
 }
 .instructions{
   display: none;
@@ -108,8 +120,9 @@
   background-color: floralwhite;
   font-size: 20px;
   width: 80%;
-  box-shadow: 0 0 20px #4682b4;
+  box-shadow: 0 0 20px skyblue;
   border-radius: 15px;
+
 }
 .close {
   position: absolute;
