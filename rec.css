@@ -47,6 +47,7 @@
     border-width: 7px;
     border-color:LightBlue;
     margin-top: 70px;
+  
  }
  p{
   font-size:15px;
@@ -54,29 +55,30 @@
   margin-top: 60px;
   padding: 15px;
  }
- #box2{
-  flex-direction:row;
+ #box2 {
+  float: left; /* Float box2 to the left */
   width: 30%;
   height: 115%;
-  justify-content: space-between;
-  background-color:#4682b4;
+  justify-content: space-between; /* This will only apply if box2 itself is a flex container for its internal content */
+  background-color: #4682b4;
   border-style: dotted;
   border-width: 7px;
-  border-color:LightBlue;
+  border-color: LightBlue;
   margin-top: 60px;
+  margin-right: 20px; /* Add some space between box2 and box3 (adjust as needed) */
 }
 
-#box3{
-  flex-direction:row;
-  padding:20px;
+#box3 {
+  float: left; /* Float box3 to the left as well */
+  padding: 20px;
   width: 30%;
   height: 150%;
-  background-color:FloralWhite;
+  background-color: FloralWhite;
   border-style: dotted;
   border-width: 7px;
-  border-color:LightBlue;
-
+  border-color: LightBlue;
 }
+
 #calculate-p{
   padding:5px;
 }
