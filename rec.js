@@ -24,7 +24,7 @@ async function avrageOfgrades(){
     popup.style.display = "block";
 }
 function close_popup(popup_instructions) {
-    var popup = document.getElementById("popup_instructions");;
+    var popup = document.getElementById("popup_instructions");
     popup.style.display = "none";
 }
 function checkAnswer(){
@@ -35,14 +35,14 @@ function checkAnswer(){
     if(choise_input==="Alicecode"||choise_input==="alicecode"||choise_input==="alice code"||choise_input=="Alice code"){
         alert("we got your answer we will get you in Alicecode recommendations page in a few seconds ");
         setTimeout(2000);
-        window.location.replace("aliceoderec.html"); 
+        window.location.replace("alicecoderec.html"); 
     }
     if(choise_input==="universty"||choise_input==="Universty"){
         alert("we got your answer we will get you in universty recommendations page in a few seconds ");
         window.location.replace("universtyrec.html"); 
     }
     else{
-        alert("We didn't get your answer please try to type again");
+        alert("We didn't get your answer please try to type again or click on the X to exit");
         setTimeout(open_popup,2000);
     }
 
