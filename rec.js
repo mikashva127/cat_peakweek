@@ -1,12 +1,17 @@
 async function avrageOfgrades(){
-    alert("here is:");
     const input=document.getElementById("grades").value
     const count=input.split('+').length;
     const expression = `(${input}) / ${count}`;
     const encodedExpr = encodeURIComponent(expression);
     const response = await fetch(`https://api.mathjs.org/v4/?expr=${encodedExpr}`);
     const result= await response.text();
-    alert("your avrage is:"+result);
+    if(result>=80){
+        alert("your avrage is: " + result+ ".Great job!,You can be accepted to the major.");
+    }
+    else{
+        alert("Your average is: " + result + ". Keep going — you’re on your way, but this grade isn't enough yet to be accepted into the major. You can do it!");
+ 
+    }
     
 
     
