@@ -1,9 +1,12 @@
 async function avrageOfgrades(){
     alert("here is:");
-    const response= await fetch("http://api.mathjs.org/v4/");
-    const data= await response.json();
-    const input=document.getElementById(grades).value;
-    console.log(data);
+    const input=document.getElementById("grades").value
+    const count=input.split('+').length;
+    const expression = `(${input}) / ${count}`;
+    const encodedExpr = encodeURIComponent(expression);
+    const response = await fetch(`https://api.mathjs.org/v4/?expr=${encodedExpr}`);
+    const result= await response.text();
+    alert("your avrage is:"+result);
     
 
     
