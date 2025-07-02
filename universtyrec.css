@@ -97,6 +97,9 @@ body {
    
 
  }
+ p{
+    color: black;
+ }
  #boxesin3{
     width: 30%;
     height: 60px;
@@ -115,9 +118,6 @@ body {
     margin-right: 20px;
  }
 
- p{
-    color: black;
- }
  #catE{
     width: 90px;
     margin-right: -5px;
@@ -164,5 +164,20 @@ body {
     font-size: 18px;
     font-family: cursive;
 
+
+}
+#info{
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 3px;
+    margin: 5px;
+}
+#infoA{
+    font-size: 20px;
+    font-family: cursive;
+    padding: 3px;
+    margin: 5px;
+    color: black;
 
 }
