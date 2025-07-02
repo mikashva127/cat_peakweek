@@ -17,21 +17,92 @@
     </div>
     <div class="main-div">
     <div id="box1">
-        <p id="p1"><b>General explanation about Physics major:</b><br>
-            The Physics major is all about understanding how the universe works. <br>You'll study everything from tiny atoms to giant galaxies, learning about forces, energy, and matter. <br>It's a challenging major that makes you a great problem-solver and a very logical thinker.<br> Physics graduates can go into research, engineering, teaching, or even jobs that need strong analytical skills, like in finance.
+        <p id="p1" ><b>General explanation about Physics major:<p></b>
+            <p id="sub">The Physics major is all about understanding how the universe works. <br>You'll study everything from tiny atoms to giant galaxies, learning about forces, energy, and matter. <br>It's a challenging major that makes you a great problem-solver and a very logical thinker.<br> Physics graduates can go into research, engineering, teaching, or even jobs that need strong analytical skills, like in finance.
         </p>
       </div>
       <div id="box2">
-        <p><b>General explanation about computer science major:</b><br> <p>
-        Computer Science is about computers and how to make them do amazing things.<br> You'll learn how to write code, design programs, and understand the logic behind all technology. <br>It's a field that's always changing and has tons of job opportunities.<br> Computer Science graduates are in high demand everywhere, working as software developers, data experts, and helping to create the next big tech innovations.</p>
+        <p id="text_com"><b>General explanation about computer science major:</b> </p>
+        <p>Computer Science is about computers and how to make them do amazing things.<br> You'll learn how to write code, design programs, and understand the logic behind all technology. <br>It's a field that's always changing and has tons of job opportunities.<br> Computer Science graduates are in high demand everywhere, working as software developers, data experts, and helping to create the next big tech innovations.</p>
       </div>
     </div>
     <style>
-        #box2 {
-          text-align: center;  
-        
+      
+    body {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+        background-color: #88acc8;
+        color:#4682b4;
+        direction: ltr;
+}
+.navbar {
+    position: fixed;
+    height: 115px;
+    width: 100%;
+    background-attachment: #a2bedc;
+  }
+.subtitle{
+    color:#fff;
+    font-family: cursive;
+    margin-top: -12px;
+    float:left;
+  }
+  li{
+    display:inline-block;
+    margin-top: 30px;
+  }
+  li a{
+    text-decoration:none;
+    padding: 20px;
+    margin-left: 15px;
+    margin-top: -10px;
+  }
+  li a:hover{
+    color:white;
+    background-color:skyblue;
+  }
+  .main-div {
+    display: flex;
+    justify-content: space-between;
+    
+ }
+  #box1{
+    width: 40%;
+    height: 300px;
+    background-color:#4682b4;
+    border-style: dotted;
+    border-width: 7px;
+    border-color:LightBlue;
+    margin-top: 80px;
+    padding: 15px;
+    margin-top: 120px;
+  
+ }
+ #box2 {
+  float: left; /* Float box2 to the left */
+  width: 40%;
+  height: 300px;
+  justify-content: space-between; /* This will only apply if box2 itself is a flex container for its internal content */
+  background-color: #4682b4;
+  border-style: dotted;
+  border-width: 7px;
+  border-color: LightBlue;
+  margin-right: 700px;
+  margin-top: 120px;
+  padding: 15px;
+}
+p{
+  margin-top: -20px;
+}
+#p1{
+margin-top: 20px;
+margin: 5px;
+}#sub{
+  margin: -25px;
+}
 
-        }
+
     </style>
 </body>
 </html>

@@ -10,7 +10,7 @@
 .navbar {
     position: fixed;
     height: 115px;
-    width: 30000px;
+    width: 100%;
     background-attachment: #a2bedc;
   }
 .subtitle{
