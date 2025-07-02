@@ -17,7 +17,7 @@ async function avrageOfgrades(){
     
 }
  function otsprogrem(){
-    setTimeout(open_popup,5000);
+    setTimeout(open_popup,4000);
  }
  function open_popup(popup_instructions) {
     var popup = document.getElementById("popup_instructions");
@@ -37,7 +37,7 @@ function checkAnswer(){
         setTimeout(2000);
         window.location.replace("alicecoderec.html"); 
     }
-    if(choise_input==="universty"||choise_input==="Universty"){
+    else if(choise_input==="universty"||choise_input==="Universty"){
         alert("we got your answer we will get you in universty recommendations page in a few seconds ");
         window.location.replace("universtyrec.html"); 
     }
