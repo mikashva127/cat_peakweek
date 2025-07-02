@@ -181,3 +181,12 @@ body {
     color: black;
 
 }
+#log-out{
+    position: absolute;
+    color:#fff;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 800px;
+    margin-top: -50px;
+
+}
