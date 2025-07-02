@@ -166,3 +166,18 @@ body {
 
 
 }
+#info{
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+    padding: 3px;
+    margin: 5px;
+}
+#infoA{
+    font-size: 20px;
+    font-family: cursive;
+    padding: 3px;
+    margin: 5px;
+    color: black;
+
+}
