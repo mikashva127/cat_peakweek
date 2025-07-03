@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+<body>
+   <div class="container" ></div>
+   <canvas id="mychart"></canvas>
+   <script>
+   let mychart= document.getElementById('mychart').getContext('2d');
+   let chart= new Chart(mychart,{
+    type: 'bar' ,
+    data:{
+            labels:['Computer Science','Physics','Chemistry','Music','Arabic','Biology'],
+            datasets:[{
+            label:'popularity',
+            data:[75,45,55,38,25,60],
+            //העיצוב של הגרף כולל צבעים של עמודות
+            backgroundColor:[
+                '#4682b4',
+                'rgba(54,162,235,0.6)',
+                'rgba(153,102,255,0.6)',
+                'rgba(255,99,132,0.6)',
+                'rgba(75,192,192,0.6)',
+                '#DA70D6',],
+                borderWidth:4,
+                borderColor:'#777',
+                hoverBorderWidth:3,
+                hoverBorderColor:'#000'
+                }]
+    },
+    options:{
+    plugins:{
+    title:{
+        display: true,
+        text:'popularity of majors',
+        font:{
+            size:25
+
+        }
+        
+    }
+    }
+}
+
+   });
+
+   </script>
+   </body>
+   </html>
