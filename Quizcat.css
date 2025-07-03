@@ -2,15 +2,40 @@ body{
   background-color:#88acc8;
 }
 h1{
-    color:#FFFF;}
+    color:#FFFF;
+    font-family: cursive;
+    font-size: 40px;
+  }
 h2{
-    color:#FFFF;}
+    color:#FFFF;
+    font-family: cursive;
+    font-size: 25px;
+  
+  }
 h3{
     color:#FFFF;}
     
     button{
   background-color:#7aa6ca;
-  padding:23px;
+  padding: 15px;
   border:10;
     border-radius:20%
     }
+    #box1{
+      width: 30%;
+      height: 115%;
+      background-color:#4682b4;
+      border-style: dotted;
+      border-width: 7px;
+      border-color:LightBlue;
+      float: right;
+    
+   }
+   #box2{
+    width: 30%;
+    height: 115%;
+    background-color:#4682b4;
+    border-style: dotted;
+    border-width: 7px;
+    border-color:LightBlue;
+   }
